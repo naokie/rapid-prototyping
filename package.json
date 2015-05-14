@@ -4,21 +4,18 @@
   "description": "",
   "main": "index.js",
   "license": "MIT",
-  "author": {
-    "name": "Naoki Endoh",
-    "email": "naoki.endoh@gmail.com",
-    "url": "https://github.com/naokie"
-  },
   "dependencies": {},
   "devDependencies": {
     "browserify": "^10.1.3",
     "budo": "^4.0.0",
     "garnish": "^2.1.3",
+    "uglify-js": "^2.4.21",
     "wzrd": "^1.3.0"
   },
   "scripts": {
     "test": "node test.js",
-    "start": "budo demo.js -v --live -o bundle.js | garnish"
+    "start": "budo demo.js -v --live -o bundle.js | garnish",
+    "build": "browserify demo.js | uglifyjs -cm > bundle.js"
   },
   "keywords": [],
   "repository": {
