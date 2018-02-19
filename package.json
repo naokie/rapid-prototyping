@@ -11,9 +11,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^10.1.3",
-    "budo": "^4.0.0",
-    "garnish": "^2.1.3",
+    "browserify": "^16.1.0",
+    "budo": "^11.1.7",
+    "garnish": "^5.2.0",
     "wzrd": "^1.3.0"
   },
   "scripts": {
