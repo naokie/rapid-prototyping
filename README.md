@@ -1,5 +1,7 @@
 # rapid-prototyping
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/naokie/rapid-prototyping.svg)](https://greenkeeper.io/)
+
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 
